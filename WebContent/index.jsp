@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="es">
 	<head>
@@ -49,7 +51,7 @@
 	<div class="container-fluid expanded-panel">
 		<div class="row">
 			<div id="logo" class="col-xs-12 col-sm-2">
-				<a href="index.html">DispensAPP</a>
+				<a href="index.jsp">DispensAPP</a>
 			</div>
 			<div id="top-panel" class="col-xs-12 col-sm-10">
 				<div class="row">
@@ -317,9 +319,52 @@
 						<span class="hidden-xs">Pacientes</span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a class="ajax-link" href="test.html">Registrar paciente</a></li>
+						<li><a class="ajax-link" href="frmPaciente.jsp">Registrar Paciente</a></li>
+						<li><a class="ajax-link" href="listaPacientes.jsp">Pacientes Registrados</a></li>
+						
 						
 					</ul>
+					
+					
+					
+				
+				</li>
+				
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle">
+						<i class="fa fa-bar-chart-o"></i>
+						<span class="hidden-xs">Productos</span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a class="ajax-link" href="frmProducto.jsp">Registrar Producto</a></li>
+						
+						
+					</ul>
+					
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle">
+						<i class="fa fa-bar-chart-o"></i>
+						<span class="hidden-xs">Pedidos</span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a class="ajax-link" href="frmPedido.jsp">Registrar Pedido</a></li>
+						
+						
+					</ul>
+					
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle">
+						<i class="fa fa-bar-chart-o"></i>
+						<span class="hidden-xs">Inventario</span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a class="ajax-link" href="frmInventario.jsp">Inventario</a></li>
+						
+						
+					</ul>
+					
+					
+				
 				</li>
 			</ul>
 		</div>
